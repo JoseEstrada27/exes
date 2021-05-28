@@ -43,10 +43,13 @@ header {
 #btn-menu {
   display: none; }
 
+#btn-menu:active {
+  background-image: linear-gradient(to bottom, #B3FFFF, white); }
+
 header .label__menu {
   display: none;
   width: 30px;
-  height: 30px;
+  height: 36px;
   padding: 30px; }
 
 header .label__menu:hover {
@@ -83,7 +86,8 @@ header .label__menu:hover {
     justify-content: flex-start;
     border-bottom: 1px solid black; }
   header .label__menu {
-    display: block; }
+    display: block;
+    margin-left: 58px; }
   .vacio {
     display: flex;
     flex-direction: row;
@@ -113,6 +117,8 @@ header .label__menu:hover {
     text-align: center; }
   .header__menu .header__lista--item {
     border-top: 1px solid black; }
+  #btn-menu:active {
+    background-image: linear-gradient(to bottom, #B3FFFF, white); }
   #btn-menu:checked ~ .header__menu {
     margin: 0;
     margin-top: 260px; } }
