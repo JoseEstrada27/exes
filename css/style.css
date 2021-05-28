@@ -87,7 +87,7 @@ header .label__menu:hover {
     border-bottom: 1px solid black; }
   header .label__menu {
     display: block;
-    margin-left: 30px; }
+    margin-left: 15px; }
   .vacio {
     display: flex;
     flex-direction: row;
