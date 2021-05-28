@@ -49,8 +49,7 @@ header {
 header .label__menu {
   display: none;
   width: 30px;
-  height: 36px;
-  padding: 30px; }
+  height: 36px; }
 
 header .label__menu:hover {
   cursor: pointer; }
@@ -87,7 +86,7 @@ header .label__menu:hover {
     border-bottom: 1px solid black; }
   header .label__menu {
     display: block;
-    margin-left: 15px; }
+    margin-left: 25px; }
   .vacio {
     display: flex;
     flex-direction: row;
