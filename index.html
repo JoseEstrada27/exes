@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Exes</title>
 </head>
 <body>
-    <header>
+    <div class="generalContainer">
+        <!--Begins Header-->
+        <header>
        
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><img src="menu.png" alt="menu" class="icono"></label>
-        <h1>Eat Sushi</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="">Conocenos</a></li>
-                <li><a href="">Menú</a></li>
-                <li><a href="">Promociones</a></li>
-                <li><a href="">Reseñas</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </nav>
-        
-    </header>
+            <input type="checkbox" id="btn-menu">
+            <label class="label__menu" for="btn-menu"><img src="./img/iconMenu.png" alt="menu" class="responsive__icono"></label>
+            <div class="vacio">
+                <img src="./img/iconlogotres.png" alt="iconlogo" class="header__logo--icono">
+                <h1 class="header__logo"> Exes</h1>
+            </div>
+          
+            <nav class="header__menu">
+                <ul class="header__lista">
+                    <li class="header__lista--item"><a href="index.html">Inicio</a></li>
+                    <li class="header__lista--item"><a href="#">Metodologías</a></li>
+                    <li class="header__lista--item"><a href="#">Conoce más</a></li>
+                  
+                </ul>
+            </nav>
+            
+        </header>
+
+    </div>
+   
 
     
 </body>
